@@ -1,5 +1,8 @@
 FROM php:7.2-fpm
 
+MAINTAINER Fernando Dumont <fernando@fernando.com.br>
+LABEL Description="Wordpress + php 7.2 fpm + soap"
+
 # install the PHP extensions we need
 RUN set -ex; \
 	\
